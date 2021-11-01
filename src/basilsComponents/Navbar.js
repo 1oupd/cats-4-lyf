@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import "./nav-bar.css";
-import Image from "./img/cat.png";
+import {Link} from 'react-router-dom';
+import './NavBar.css';
+
 
 const Navbar = () => {
     return(
@@ -12,7 +12,7 @@ const Navbar = () => {
                     <Link to="/">Home</Link>   
                 </div>
                 <div className = "soloLink">
-                <Link to="/basketList">Basket</Link>
+                <Link to="/contact">Contact</Link>
                 </div>
                 <div className = "soloLink">
                 <Link to="/about">About</Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
         </nav>
     </div>
-  );
-};
+    );
+}
 
 export default Navbar;
